@@ -32,7 +32,7 @@ function getBooks(query){
             for (let i = 0; i < 15; i++){
                 results.innerHTML +=             
                 `
-                <h3>${data.docs[i].title}</h3>
+                <h3><a href="http://openlibrary.org/${data.docs[i]["key"]}" target="_blank">${data.docs[i].title}</a></h3>
                 <p>${data.docs[i]["author_name"]}</p>
                 <hr> 
                 `
