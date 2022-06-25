@@ -53,7 +53,7 @@ function displayLoading(){
   loader.classList.add("display");
   setTimeout(()=>{
     loader.classList.remove("display");
-  }, 8000);
+  }, 13000);
 }
 
 function hideLoading(){
