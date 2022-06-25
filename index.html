@@ -13,7 +13,10 @@
         <main>    
             <div class="search-box">   
                 <h1>BookSearch</h1>      
-                <input type="text" id="input" class="search-field form-control">
+                <input type="text" id="input" class="search-field form-control" placeholder="Search a book..." onfocus="this.value=''">
+                <div id="errorMessage">
+                </div>
+                <div id="loading"></div>
                 <div id="results">
                 </div>
             </div>
